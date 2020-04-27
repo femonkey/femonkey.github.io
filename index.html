@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bookmark</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <span id="forkongithub"
+        ><a href="https://github.com/IanLunn/Hover">Fork me on GitHub</a></span
+      >
+      <div id="main"></div>
+    </div>
+
+    <script src="./js/website.js"></script>
+    <script>
+      window.onload = function () {
+        console.log(website);
+        let str = website.map((item) => {
+          let strArr = item.children.map((list) => {
+            return `<div class="panel"><a href="${list.url}" target="_blank">${list.name}</a></div>`;
+          });
+          return `<div class="list">
+                        <h3>${item.name}</h3>
+                        <div class="panel-wrapper">${strArr.join("")}</div>
+                        
+                        </div>`;
+        });
+        document.getElementById("main").innerHTML = str.join("");
+      };
+    </script>
+  </body>
+</html>
