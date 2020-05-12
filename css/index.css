@@ -17,6 +17,7 @@ body {
 }
 h3 {
   line-height: 40px;
+  color: #5173c3;
 }
 .panel-wrapper {
   display: flex;
@@ -26,12 +27,12 @@ h3 {
   width: 100px;
   height: 60px;
   border-radius: 2px;
-  background: #fff;
+  background: #efd384;
   margin: 5px;
   text-align: center;
   font-size: 12px;
   line-height: 60px;
-  color: #333;
+  color: #2f95b5;
   border-bottom: none;
   display: inline-block;
   vertical-align: middle;
