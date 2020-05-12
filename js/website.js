@@ -246,15 +246,15 @@ const website = [
                 url:'https://www.highcharts.com.cn/'
             },
             {
-                name:'D3',
+                name:'三维 D3',
                 url:'https://www.d3js.org.cn/'
             },
             {
-                name:'three',
+                name:'三维 three',
                 url:'https://threejs.org/'
             },
             {
-                name:'vue',
+                name:'框架 vue',
                 url:'https://cn.vuejs.org/'
             },
             {
@@ -262,8 +262,12 @@ const website = [
                 url:'https://element.eleme.cn/#/zh-CN'
             },
             {
-                name:'axios',
+                name:'请求 axios',
                 url:'https://www.kancloud.cn/yunye/axios/234845'
+            },
+            {
+                name:'请求 fdaciuk/ajax',
+                url:'https://github.com/fdaciuk/ajax'
             },
             {
                 name:'antDesign',
@@ -326,22 +330,32 @@ const website = [
                 url:'https://simulatedgreg.gitbooks.io/electron-vue/content/cn/'
             },
             {
-                name:'react',
-                url:'http://slides.com/loskael/badjs/fullscreen#/'
+                name:'devops',
+                url:'https://devops.phodal.com/'
             },
             {
-                name:'react',
-                url:'http://slides.com/loskael/badjs/fullscreen#/'
+                name:'CMS strapi',
+                url:'https://strapi.io/'
             },
             {
-                name:'react',
-                url:'http://slides.com/loskael/badjs/fullscreen#/'
+                name:'GraphQL',
+                url:'https://graphql.org/'
             },
             {
-                name:'react',
-                url:'http://slides.com/loskael/badjs/fullscreen#/'
+                name:'yapi',
+                url:'http://yapi.demo.qunar.com/'
+            },
+            {
+                name:'docsify',
+                url:'https://docsify.js.org/#/?id=docsify'
+            },{
+                name:'请求 mitmproxy',
+                url:' https://www.mitmproxy.org/'
+            },{
+                name:'js中文',
+                url:'https://zh.javascript.info/'
             }
-            
+           
         ]
     },
 ]
