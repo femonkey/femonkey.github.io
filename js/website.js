@@ -378,6 +378,14 @@ const website = [
             {
                 name: 'jeecg',
                 url: 'http://www.jeecg.com/'
+            },
+            {
+                name: 'umyUI',
+                url: 'https://www.umyui.com/'
+            },
+            {
+                name: 'vxe-table',
+                url: 'https://xuliangzhan_admin.gitee.io/vxe-table/#/table/start/install'
             }
 
         ]
