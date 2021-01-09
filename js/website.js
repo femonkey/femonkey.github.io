@@ -386,6 +386,14 @@ const website = [
             {
                 name: 'vxe-table',
                 url: 'https://xuliangzhan_admin.gitee.io/vxe-table/#/table/start/install'
+            },
+            {
+                name: 'monaco-edito',
+                url: 'https://microsoft.github.io/monaco-editor/'
+            },
+            {
+                name: 'tinymce',
+                url: 'http://tinymce.ax-z.cn/'
             }
 
         ]
