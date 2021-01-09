@@ -366,6 +366,10 @@ const website = [
             {
                 name: 'tensorflow',
                 url: 'https://www.w3cschool.cn/tensorflow_python/'
+            },
+            {
+                name: '钉钉开发平台',
+                url: 'https://ding-doc.dingtalk.com/'
             }
 
         ]
