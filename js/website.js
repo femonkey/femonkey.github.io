@@ -370,6 +370,14 @@ const website = [
             {
                 name: '钉钉开发平台',
                 url: 'https://ding-doc.dingtalk.com/'
+            },
+            {
+                name: '表单设计平台',
+                url: 'https://mrhj.gitee.io/form-generator/#/'
+            },
+            {
+                name: 'jeecg',
+                url: 'http://www.jeecg.com/'
             }
 
         ]
