@@ -1,6 +1,23 @@
 const website = [
     {
-        name: '前端相关',
+        name: '教育相关',
+        children: [
+            {
+                name: '研招网',
+                url: 'http://yz.chsi.com.cn/'
+            },
+            {
+                name: '学信网',
+                url: 'http://www.chsi.com.cn/'
+            },
+            {
+                name: '信管网',
+                url: 'https://www.cnitpm.com/'
+            }
+        ]
+    },
+    {
+        name: '技术社区',
         children: [
             {
                 name: '掘金',
@@ -157,19 +174,126 @@ const website = [
 
         ]
     },
+   
     {
-        name: '教育相关',
+        name: '小程序',
         children: [
             {
-                name: '研招网',
-                url: 'http://yz.chsi.com.cn/'
+                name: '微信小程序',
+                url: 'https://mp.weixin.qq.com/cgi-bin/wx'
             },
             {
-                name: '学信网',
-                url: 'http://www.chsi.com.cn/'
-            }
+                name: '支付宝小程序',
+                url: 'https://opendocs.alipay.com/'
+            },
+            {
+                name: '字节跳动小程序',
+                url: 'https://developer.toutiao.com/'
+            },
         ]
     },
+   
+    {
+        name: 'GIS/可视化类',
+        children: [
+            
+            {
+                name: 'GIS Cesium',
+                url: 'https://cesium.com/cesiumjs/'
+            },
+            {
+                name: 'GIS Mapbox',
+                url: 'https://www.mapbox.com/'
+            },
+            {
+                name: 'GIS openLayer',
+                url: 'https://openlayers.org/'
+            },
+            {
+                name: 'GIS leaflet',
+                url: 'https://leafletjs.com/'
+            },
+            {
+                name: 'GIS 高德地图 API',
+                url: 'https://lbs.amap.com/'
+            },
+            {
+                name: 'GIS 百度地图 API',
+                url: 'http://lbsyun.baidu.com/'
+            },
+            {
+                name: 'GIS 腾讯地图 API',
+                url: 'https://lbs.qq.com/'
+            },
+            {
+                name: 'GIS @turf/turf',
+                url: 'http://turfjs.org/'
+            },
+            {
+                name: 'GIS mapv',
+                url: 'https://mapv.baidu.com/'
+            },
+            {
+                name: '热力图 heatmap',
+                url: 'https://www.patrick-wied.at/static/heatmapjs/'
+            },
+            {
+                name: '热力图 clickheat',
+                url: 'https://www.dugwood.com/clickheat/index.html'
+            },
+            {
+                name: '图表 echarts',
+                url: 'https://www.echartsjs.com/zh/index.html'
+            },
+            {
+                name: '图表 charts',
+                url: 'http://chartjs.cn/'
+            },
+            {
+                name: '图表 highcharts',
+                url: 'https://www.highcharts.com.cn/'
+            },
+            {
+                name: '三维 D3',
+                url: 'https://www.d3js.org.cn/'
+            },
+            {
+                name: '三维 three',
+                url: 'https://threejs.org/'
+            },
+        ]
+    },
+    {
+        name: '监控类',
+        children: [
+            {
+                name: '异常监控badjs',
+                url: 'http://slides.com/loskael/badjs/fullscreen#/'
+            },
+
+        ]
+    },
+    {
+        name: '基础框架（脚手架、ui框架、基础模版语言）',
+        children: [
+            {
+                name: '异常监控badjs',
+                url: 'http://slides.com/loskael/badjs/fullscreen#/'
+            },
+
+        ]
+    },
+    {
+        name: 'server类',
+        children: [
+            {
+                name: '异常监控badjs',
+                url: 'http://slides.com/loskael/badjs/fullscreen#/'
+            },
+
+        ]
+    },
+
     {
         name: '技术官网',
         children: [
@@ -394,7 +518,27 @@ const website = [
             {
                 name: 'tinymce',
                 url: 'http://tinymce.ax-z.cn/'
-            }
+            },
+            {
+                name: 'redux',
+                url: 'https://www.redux.org.cn/'
+            },
+            {
+                name: 'nest',
+                url: 'https://nestjs.com/'
+            },
+            {
+                name: 'egg',
+                url: 'https://www.eggjs.org/'
+            },
+            {
+                name: 'prometheus',
+                url: 'https://www.eggjs.org/'
+            },
+            {
+                name: 'prometheus',
+                url: 'https://www.eggjs.org/'
+            },
 
         ]
     },

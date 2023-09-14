@@ -17,22 +17,23 @@ body {
 }
 h3 {
   line-height: 40px;
-  color: #5173c3;
+  color: #000033;
 }
 .panel-wrapper {
   display: flex;
   flex-wrap: wrap;
 }
 .panel a {
-  width: 100px;
+  width: 120px;
   height: 60px;
   border-radius: 10px;
   background: #f7d370;
   margin: 5px;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 60px;
-  color: #5173c3;
+  border: 2px solid #FFCC66;
+  color: #666699;
   border-bottom: none;
   display: inline-block;
   vertical-align: middle;
@@ -41,9 +42,10 @@ h3 {
   position: relative;
   overflow: hidden;
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  font-weight: 600;
 }
 .panel a:hover {
-  color: #0cf;
+  color: #6666CC;
 }
 .panel a:before {
   content: "";
@@ -52,7 +54,7 @@ h3 {
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: #6cf;
+  background: #6666CC;
   height: 2px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
