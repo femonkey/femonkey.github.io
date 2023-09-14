@@ -10,7 +10,9 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background: url("../img/bg.jpg");
+  background-color: #ddd;
+  background-image: url("../img/bg.jpg");
+  background-size: center;
 }
 .wrapper {
   padding: 45px 20px;
